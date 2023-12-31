@@ -1,0 +1,47 @@
+.main-container {
+    background: url('https://media.tenor.com/5jh-qbQOYrQAAAAd/joony-art-painting.gif');
+    background-size: cover;
+    height: 90vh;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-card {
+    min-height: 100px;
+    min-width: 500px;
+    background-image: transparent;
+    box-shadow: 4px 4px 4px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.input-field {
+    height: 45px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: black;
+    margin: 5px;
+    text-align: center;
+}
+
+.input-field:hover {
+    background-color: cornflowerblue;
+}
+
+.btn {
+    margin: 5px;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: chartreuse;
+}

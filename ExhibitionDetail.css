@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.banner-image{
+    height: 70vh;
+    width: 100%;
+}
+
+.artists-bio-container{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.profile-image-artist{
+    height: 70px;
+}
+
+.artworks-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.artwork-images-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Artwork-image{
+    min-height: 70px;
+    max-width: 190px;
+}

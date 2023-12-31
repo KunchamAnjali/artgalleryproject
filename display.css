@@ -1,0 +1,121 @@
+.main-image{
+    background-image: url("https://i.ytimg.com/vi/bIDZHpIp4-s/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.main-heading{
+    font-style: initial;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    font-weight: bold;
+}
+
+.form-control{
+    width: 300px;
+    position: absolute;
+    right: 0;
+    margin-right: 60px;
+}
+
+.side-headings-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.chevron-right{
+    font-size: 30px;
+    width: 30px;
+}
+
+.oil-paintings-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-card{
+    height: 300px;
+    width: 200px;
+    margin: 20px;
+}
+
+.card-image{
+    width: 200px;
+    height: 180px;
+}
+
+.wishlist-icon {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: rgb(240, 220, 220); 
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+.card-heading{
+    font-size: 12px;
+    margin: 2px;
+}
+.card-description{
+    font-size: 10px;
+    overflow: hidden;
+}
+.price{
+    margin: 0px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .rating span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+
+  .rating span:before {
+    content: '★';
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+
+  .rating .filled:before {
+    opacity: 1;
+  }
+
+  .rating span:hover:before,
+  .rating span:hover ~ span:before {
+    opacity: 1;
+  }
+
+  .image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .suit-heart{
+    font-size: 30px;
+    width: 30px;
+    color: white;
+    position:absolute;
+    cursor: pointer;
+    margin: 4px;
+  }

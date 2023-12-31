@@ -1,0 +1,40 @@
+.about-image{
+    margin-top: 80px;
+}
+
+.about-description{
+    margin-top: 150px;
+}
+
+.available-heading{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.available-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.artworks-card{
+    height: 300px;
+    width: 300px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRChaLwkYu18uQa55eChs6FnuhmDYgj61lwuQ&usqp=CAU');
+    background-position: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.artworks-card1{
+    height: 300px;
+    width: 300px;
+    background-image: url('https://img.freepik.com/premium-photo/girl-picks-up-pink-color-palette-table_94064-2115.jpg?size=626&ext=jpg');
+    background-position: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.artworks-heading{
+    margin-top: 100px;
+}

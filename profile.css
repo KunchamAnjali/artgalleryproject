@@ -1,0 +1,13 @@
+.profile-image{
+    max-height: 400px;
+}
+
+.div-hr-line{
+    width: 100%;
+}
+
+.details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

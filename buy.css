@@ -1,0 +1,38 @@
+body{
+    background-image:linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+};
+    
+.container{
+   
+   justify-content: center;
+   align-items: center;
+   
+}
+.inner{
+ 
+
+   color:white;
+   font-weight:1000px;
+   text-transform: capitalize;
+   text-align: center;
+  
+   padding: 10px;
+   padding-top:30px ;
+}
+button{
+   width:120px;
+   height:40px;
+   border-radius:80px;
+   background-color:yellow;
+   color:red;
+   
+   
+}
+.head{
+padding-bottom:20px;
+line-height:1.8;
+color:green;
+}
+    marquee{
+    color:red;
+    }

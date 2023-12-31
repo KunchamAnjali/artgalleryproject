@@ -1,0 +1,25 @@
+.exhibition-container{
+    display: flex;
+    flex-direction: row;
+    min-height: 60px;
+    min-width: 800px;
+    box-shadow: 4px 4px 4px 4px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card-image{
+    height: 170px;
+    width: 170px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.description{
+    padding: 30px;
+}
+
+.description-title{
+    list-style-type: none;
+}

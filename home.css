@@ -1,0 +1,96 @@
+.bg-container{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/024/395/273/large_2x/paint-a-realistic-portrait-of-a-tiger-in-the-jungle-watercolor-painting-beautiful-natural-forms-crisp-clean-shapes-colorful-white-background-generate-ai-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 60%;
+}
+
+.main-sub-container{
+    width: 50%;
+    height: 90vh;
+    background: rgba(86, 86, 86, 0.5);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 50%;
+}
+
+.main-description-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.shop-btn{
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #333;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    font-size: 20px;
+}
+
+.shop-btn:hover{
+    background-color: #ffffff;
+    color: black;
+    border-color: black;
+    float: right;
+}
+
+.popular-medium-heading{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-with-heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.each-card-container{
+    height: 400px;
+    width: 350px;
+    box-shadow: 4px 4px 4px 4px;
+}
+
+.about-image{
+    height: 400px;
+    width: 500px;
+    border-radius: 500px;
+    position: absolute;
+    left: 5%;
+}
+
+.about-description{
+    position: absolute;
+    left: 45%;
+    text-align: center;
+    margin-top: 80px;
+    margin-right: 40px;
+
+}
+
+.bottom-container{
+    width: 100%;
+    background-color: #333;
+    height: 50px;
+}
